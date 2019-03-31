@@ -1,0 +1,513 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Catamaran');
+@import 'https://fonts.googleapis.com/css?family=Oswald|Open+Sans';
+
+
+/* BODY - GLOBAL STYLING */
+body {
+  background-color: #303030;
+}
+
+body p {
+  font-family: Helvetica;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+body h1 {
+  font-family: 'Catamaran', sans-serif;
+  font-size: 30px;
+  color: #ffdb66;
+  padding: 0px 25px;
+  text-align: center;
+}
+
+body h2 {
+  font-family: 'Catamaran', sans-serif;
+  font-size: 25px;
+  color: #ffcb1f;
+  padding: 0px 25px;
+  text-align: center;
+}
+
+body h3 {
+  font-family: 'Catamaran', sans-serif;
+  font-size: 20px;
+  color: #ffcb1f;
+  padding: 0px 25px;
+  text-align: center;
+}
+
+
+body blockquote {
+  font-family: Helvetica;
+  font-size: 20px;
+  font-style: italic;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+ol {
+  font-family: Helvetica;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+
+
+
+
+
+/* MASTER CONTAINER */
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.container h1 {
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+
+.container h2 {
+  padding-top: 25px;
+}
+
+.container h3 {
+  padding-top: 25px;
+}
+
+/* HERO SECTION */
+
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+/* HEADLINE */
+.headline {
+  margin: 50px 0px;
+  background-color: #404040;
+  padding: 25px 0px;
+}
+
+.headline h1 {
+  font-family: Helvetica;
+  font-size: 50px;
+  color: #ffffff;
+  padding: 0px 50px;
+}
+
+
+/* SUBHEAD */
+.subhead {
+  margin: 50px 0px;
+  background-color: #404040;
+  padding: 25px 0px;
+}
+
+.subhead h1 {
+  font-family: Helvetica;
+  font-size: 40px;
+  color: #ffffff;
+  padding: 0px 50px;
+}
+
+
+
+/* CTA */
+.cta {
+  background-color: #ffdb66;
+  padding: 25px 0px 12px 0px;
+}
+
+.cta h1 {
+  font-family: Helvetica;
+  font-size: 20px;
+  color: #000000;
+  padding: 0px 50px;
+}
+
+.cta h2 {
+  font-family: Helvetica;
+  font-size: 25px;
+  color: #404040;
+  padding: 0px 50px;
+}
+
+
+
+/* CONTENT */
+
+.content {
+  margin: 50px 0px;
+  background-color: #404040;
+  padding-bottom: 50px;
+}
+
+.numbered-questions ol {
+  counter-reset: li;
+  list-style: none;
+  font-family: Helvetica;
+  margin-left: 0;
+  font-size: 20px;
+  font-style: italic;
+  line-height: 1.3em;
+  color: #ffffff;
+  text-align: left;
+  padding-top: 25px;
+  padding-bottom: 0px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.numbered-questions li {
+  display: block;
+  margin-top: 25px;
+  margin-left: 2em;
+  counter-increment: li;
+}
+
+.numbered-questions li::before {
+  content: counter(li);
+  color: #ffcb1f;
+  font-family: 'Indie Flower', cursive;
+  font-size: 25px;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em
+}
+
+
+.flat-blockquote {
+	color: #ffffff;
+	background: #454545;
+	text-align: left;
+  border-left: 5px solid #353535;
+	position: relative;
+	max-width: 660px;
+	padding: 40px 60px 30px 70px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+.flat-blockquote:before {
+  display:block;
+	position: absolute;
+  content:open-quote;
+  font-size: 3em;
+  display: inline;
+  margin: 0 0 20px 0;
+  color: #ffcb1f;
+	line-height: 40px;
+  left: 20px;
+  top: 35px;
+}
+
+.flat-blockquote:after {
+	content: no-close-quote;
+}
+
+.flat-blockquote div {
+	color: #ffcb1f;
+	font-style: italic;
+  font-size: 75%;
+	text-align: right;
+	margin-top: 15px;
+}
+
+
+.negative-list ul {
+  list-style:none;
+  margin:0 0 1em 15px;
+  padding: 0;
+  font-family: Helvetica;
+  font-size: 20px;
+  font-style: italic;
+  line-height: 24px;
+  color: #ffffff;
+  text-align: left;
+  padding-top: 25px;
+  padding-bottom: 0px;
+  padding-left: 35px;
+  padding-right: 50px;
+}
+
+.negative-list li {
+  line-height:1.3em;
+  margin: 25px 0;
+  padding: 0 0 0 25px;
+  background:url(imgs/red-x.svg) no-repeat 0px 7px;
+}
+
+/* BUTTON 1 */
+/*html, body {
+  background-color: #ecf0f1;
+}*/
+
+/* centers the button in the DOM */
+.button1 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+/* gives btn width and height */
+.button1 a {
+  text-decoration: none; /* strip natual underlines */
+  width: 900px;
+  line-height: 102px;
+  height: 102px;
+  margin: 0px 0px 0px 0px;
+}
+
+/**  colors and transitions back to normal
+  *  hex colors from flatuicolors.com
+  **/
+
+.btn-2 {
+    background: #27ae60; /* nephritis */
+    -webkit-transition: background 225ms ease!important;
+    -moz-transition: background 225ms ease!important;
+    transition: background 225ms ease!important;
+}
+
+.btn-2:before, .btn-2:focus, .btn-2:hover {
+    background: #2ecc71; /* emerald */
+}
+
+
+/* base btn styling */
+.btn-base {
+    font-family: Oswald, sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    position: relative;
+    transition: all 225ms ease;
+    border: none;
+    border-radius: 2px;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    line-height: 102px;
+}
+
+/* places copy on top */
+.btn-cta span {
+    z-index: 8;
+    position: relative;
+}
+
+/** definition and placement of
+  * starting size before element */
+
+.btn-cta:before {
+    content: "";
+    display: block;
+    width: 86%;
+    height: 65%;
+    border-radius: 4px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transition: all 400ms cubic-bezier(.32,1.25,.1,1.47);
+    -moz-transition: all 400ms cubic-bezier(.32,1.25,.1,1.47);
+    transition: all 400ms cubic-bezier(.32,1.25,.1,1.47);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+/* grow to sizing for before element */
+.btn-cta:focus:before, .btn-cta:hover:before {
+    height: 105%;
+    width: 105%;
+}
+
+/*Resources 1×0.5×0.25× Rerun */
+
+
+
+/* FAQ */
+
+.faq {
+  font-family: "IBM Plex Sans", sans-serif;
+  background-color: #ffffff;
+  padding-bottom: 50px;
+}
+
+.faq h2 {
+  margin: 20px auto 80px;
+  padding-top: 50px;
+  font-family: Helvetica;
+  font-size: 38px;
+  color: black;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 2px;
+  line-height: 1.5;
+}
+
+.faq details {
+  width: 100%;
+  min-height: 5px;
+  max-width: 800px;
+  padding: 45px 70px 45px 45px;
+  margin: 0 auto;
+  position: relative;
+  font-size: 16px;
+  border: 1px solid rgba(0,0,0,.1);
+  border-radius: 15px;
+  box-sizing: border-box;
+  transition: all .3s;
+}
+
+.faq details + details {
+  margin-top: 10px;
+}
+
+.faq details[open] {
+  min-height: 50px;
+  background-color: #ececec;
+  box-shadow: 2px 2px 20px rgba(0,0,0,.2);
+}
+
+.faq details p {
+  color: #252525;
+  font-weight: 300;
+}
+
+.faq summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.faq summary:focus {
+  outline: none;
+  box-shadow: 0 0 0 0px #f6f7f8, 0 0 0 0px rebeccapurple;
+}
+
+.faq summary::-webkit-details-marker {
+  display: none
+}
+
+.control-icon {
+  fill: rebeccapurple;
+  transition: .3s ease;
+  pointer-events: none;
+}
+
+.control-icon-close {
+  display: none;
+}
+
+.faq details[open] .control-icon-close {
+  display: initial;
+  transition: .3s ease;
+}
+
+.faq details[open] .control-icon-expand {
+  display: none;
+}
+
+.faq details[open] summary:hover::after {
+  animation: pulse 1s ease;
+}
+
+@keyframes pulse {
+  25% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* UNIQUE IDENTIFICATION */
+
+#thesale {
+  background-color: #202020;
+}
+
+#thesale h1 {
+  color: #00ff92;
+}
+
+#thesale h2 {
+  color: #00be6d;
+}
+
+#tabela-vendedor-div {
+  padding: 0 50px;
+}
+
+#tabela-vendedor-div img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+#salario-anual-vendedor {
+  text-align: center;
+  font-size: 35px;
+  line-height: 50px;
+}
+
+
+
+/* AUXILIARY CLASSES */
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES FOR RESPONSIVENESS */
+
+/* Whenever the website's width becomes smaller than 900px, the content starts scalling down. */
+@media screen and (max-width:899px) {
+  .container {
+    width: 100%;
+  }
+}
