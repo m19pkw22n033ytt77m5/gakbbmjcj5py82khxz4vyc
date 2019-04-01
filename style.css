@@ -255,6 +255,29 @@ ol {
   background:url(imgs/red-x.svg) no-repeat 0px 7px;
 }
 
+.bullet-list ul {
+  list-style:none;
+  margin:0 0 1em 15px;
+  padding: 0;
+  font-family: Helvetica;
+  font-size: 20px;
+  font-style: italic;
+  line-height: 24px;
+  color: #ffffff;
+  text-align: left;
+  padding-top: 25px;
+  padding-bottom: 0px;
+  padding-left: 35px;
+  padding-right: 50px;
+}
+
+.bullet-list li {
+  line-height:1.3em;
+  margin: 25px 0;
+  padding: 0 0 0 25px;
+  background:url(imgs/bullet.svg) no-repeat 0px 7px;
+}
+
 /* BUTTON 1 */
 /*html, body {
   background-color: #ecf0f1;
