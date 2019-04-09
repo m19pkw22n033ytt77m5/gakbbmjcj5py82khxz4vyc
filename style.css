@@ -148,6 +148,9 @@ ul {
   margin: 50px 0px;
   background-color: #ffb200;
   padding: 25px 0px;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
 }
 
 .headline h1 {
@@ -155,6 +158,9 @@ ul {
   font-size: 50px;
   color: #282C34;
   padding: 0px 50px;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
 }
 
 
@@ -165,6 +171,9 @@ ul {
   margin: 50px 0px;
   background-color: #ffb200;
   padding: 25px 0px;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
 }
 
 .subhead h1 {
@@ -172,6 +181,9 @@ ul {
   font-size: 40px;
   color: #282C34;
   padding: 0px 50px;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
 }
 
 
