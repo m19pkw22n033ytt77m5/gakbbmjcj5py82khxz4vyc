@@ -2,19 +2,21 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 @import 'https://fonts.googleapis.com/css?family=Oswald|Open+Sans';
+@import url('https://fonts.googleapis.com/css?family=Exo:900');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 
 
 
 /* BODY - GLOBAL STYLING */
 body {
-  background-color: #303030;
+  background-color: #ffffff;
   margin:0;
   padding:0;
 }
 
 body p {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   line-height: 24px;
   text-align: left;
@@ -26,43 +28,43 @@ body p {
 }
 
 body h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Exo', sans-serif;
   font-size: 32px;
   font-weight: lighter;
-  color: #ffdb66;
+  color: #ffc131;
   padding: 0px 50px;
   text-align: center;
 }
 
 body h2 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Exo', sans-serif;
   font-size: 29px;
   font-weight: lighter;
-  color: #ffcb1f;
+  color: #ffb200;
   padding: 0px 50px;
   text-align: center;
 }
 
 body h3 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Exo', sans-serif;
   font-size: 26px;
   font-weight: lighter;
-  color: #ffcb1f;
+  color: #ffb200;
   padding: 0px 50px;
   text-align: center;
 }
 
 body h4 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Exo', sans-serif;
   font-size: 23px;
   font-weight: lighter;
-  color: #ffcb1f;
+  color: #ffb200;
   padding: 0px 50px;
   text-align: center;
 }
 
 body blockquote {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   font-style: italic;
   line-height: 24px;
@@ -70,7 +72,7 @@ body blockquote {
 }
 
 ol {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   line-height: 24px;
   text-align: left;
@@ -82,7 +84,7 @@ ol {
 }
 
 ul {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   line-height: 24px;
   text-align: left;
@@ -108,6 +110,7 @@ ul {
 .container {
   width: 900px;
   margin: 0 auto;
+  margin-bottom: 50px;
   padding-top: 85px;
 }
 
@@ -137,30 +140,34 @@ ul {
 
 /* HEADLINE */
 .headline {
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px black;
   margin: 50px 0px;
-  background-color: #404040;
+  background-color: #ffb200;
   padding: 25px 0px;
 }
 
 .headline h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Exo', sans-serif;
   font-size: 50px;
-  color: #ffffff;
+  color: #282C34;
   padding: 0px 50px;
 }
 
 
 /* SUBHEAD */
 .subhead {
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px black;
   margin: 50px 0px;
-  background-color: #404040;
+  background-color: #ffb200;
   padding: 25px 0px;
 }
 
 .subhead h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Exo', sans-serif;
   font-size: 40px;
-  color: #ffffff;
+  color: #282C34;
   padding: 0px 50px;
 }
 
@@ -170,17 +177,19 @@ ul {
 .cta {
   background-color: #ffdb66;
   padding: 25px 0px 12px 0px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px black;
 }
 
 .cta h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Exo', sans-serif;
   font-size: 26px;
   color: #000000;
   padding: 0px 50px;
 }
 
 .cta h2 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Exo', sans-serif;
   font-size: 23px;
   color: #404040;
   padding: 0px 50px;
@@ -191,15 +200,17 @@ ul {
 /* CONTENT */
 
 .content {
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px black;
   margin: 50px 0px;
-  background-color: #404040;
+  background-color: #282C34;
   padding-bottom: 50px;
 }
 
 .numbered-questions ol {
   counter-reset: li;
   list-style: none;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin-left: 0;
   font-size: 20px;
   font-style: italic;
@@ -274,7 +285,7 @@ ul {
   list-style:none;
   margin:0 0 1em 15px;
   padding: 0;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   font-style: italic;
   line-height: 24px;
@@ -297,7 +308,7 @@ ul {
   list-style:none;
   margin:0 0 1em 15px;
   padding: 0;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   font-style: italic;
   line-height: 24px;
@@ -408,15 +419,18 @@ ul {
 /* FAQ */
 
 .faq {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   background-color: #ffffff;
+  margin: 50px 0px;
   padding-bottom: 50px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px black;
 }
 
 .faq h2 {
   margin: 20px auto 80px;
   padding-top: 50px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 38px;
   color: black;
   font-weight: 300;
